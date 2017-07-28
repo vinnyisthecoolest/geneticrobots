@@ -1,0 +1,19 @@
+{
+  "name": "mazegame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "pulp build --to dist/bundle.js",
+    "sync": "browser-sync start --server dist --files 'dist/*' --no-open --logLevel debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.12"
+  }
+}
